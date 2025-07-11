@@ -1,0 +1,105 @@
+form {
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    padding: 8px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 150px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* Dashboard Section */
+.dashboard {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+.dashboard h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    table th, table td {
+        font-size: 14px;
+    }
+}
